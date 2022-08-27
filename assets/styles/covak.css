@@ -1,0 +1,97 @@
+*{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+html, body {
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.container{
+    width: 1428px;
+    margin: 0 auto;
+}
+
+.main {
+    background-image: url("../media/casestudies/stethoscope.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 77px;
+}
+
+.main .heading{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    color: #FFFFFF;
+}
+
+.main .subheading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #3C3C3C;
+
+    background: #FFFFFF;
+    border-radius: 50px 0px 0px 50px;
+    padding: 17px 30px;
+}
+
+.main .info{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+
+    text-align: justify;
+
+    color: #000000;
+    margin-top: 99px;
+}
+
+.main .link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: #000000;
+    margin-top: 173px;
+    display:block;
+text-align:center;
+}
+
+/* information */
+.information{
+    padding: 123px 0;
+}
+
+.information .challenges, 
+.information .benifits{
+    margin-bottom: 81px;
+}
+
+.information .subheading{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #3C3C3C;
+    margin-bottom: 18px;
+}
+
+.information .info , 
+.information li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: justify;
+    color: #000000;
+}
